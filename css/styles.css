@@ -39,6 +39,8 @@
       color: white;
       display:flexbox;
   }
-  .what{
-      display:flex;
+  .portifolio{
+      align-items: center;
+    padding-left: 10%;
   }
+        
