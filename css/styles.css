@@ -58,6 +58,5 @@
       color: black;
   }
   .social{
-      display:flex;
-      justify-content: space-around;
+      align-content: center;
   }
