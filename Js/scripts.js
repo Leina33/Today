@@ -9,10 +9,8 @@ $(document).ready(function(){
         $(".r").toggle();
     });
 
-    $("#image1").mouseenter(function(){
-      $(".image1-heading").filter('#image1-title').show("slow");
-    }).mouseleave(function(){
-      $("#image1-title").hide("slow");
+    $(".image").hover(function(){
+      $(this).animate({opacity: "0.4"});
     });
   });
   $(document).ready(function(){
