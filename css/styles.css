@@ -51,11 +51,8 @@
       height:500px;
       width:100%;
   }
-  .form{
+  form{
       text-align:center;
-      box-align:center;
-      margin:50px 20px;
-      color: black;
   }
   .social{
       text-align: center;
