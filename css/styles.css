@@ -46,7 +46,7 @@
       align-items: center;
     padding-left: 10%;
   }
-  .contacts{
+  #contacts{
       background-image:url("../asserts/background/back1.jpg");
       height:500px;
       width:100%;
