@@ -11,7 +11,7 @@ $(document).ready(function(){
 
     $(".image").hover(function(){
       $(this).animate({opacity: "0.4"});
-     $(this).animate({opacity: "0.4"});
+    } ,);
   });
   $(document).ready(function(){
     $("form").submit(function(event){
