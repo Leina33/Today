@@ -8,8 +8,14 @@ $(document).ready(function(){
     $("h5").click(function(){
         $(".r").toggle();
     });
-  });
-  $(document).ready(function(){
-    $(".work1").hover(function(){
+   /* $(".work1").hover(function(){
+      $(".work1").fadeOut();
+    });
+    $(".work2").mouseleave(function(){
+      $(".work2").fadeTo();
+    });*/
+    $(".image").hover(function(){
+      $(this).animate({opacity: "0.4"});
     });
   });
+
