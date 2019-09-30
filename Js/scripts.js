@@ -13,18 +13,15 @@ $(document).ready(function(){
       $(this).animate({opacity: "0.4"});
     });
   });
-
   $(document).ready(function(){
-    $(".form-action").submit(function(event){
-      var name = document.getElementById(".name").val();
-      var email = document.getElementById(".email").val();
-      if (name && email != ''){
-        alert("Thank you " +  name  +  " your message is well receive");
-      }
-      else{
-        alert("invalid inputs!");
-      }
+    $("form").submit(function(event){
+      var name = $("#name").val();
+      var email = $("#email").val();
+      var message = $("#message").val();
       event.preventDefault();
+      if ( name && email != '')
+      {
+        alert("Thank you " + name +  "your is message is well receive");
+      }
     });
   });
-
