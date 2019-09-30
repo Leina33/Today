@@ -15,14 +15,14 @@ $(document).ready(function(){
   });
 
   $(document).ready(function(){
-    $("#contacts").submit(function(event){
-      var name = document.getElementById(".name").val;
+    $(".form-action").submit(function(event){
+      var name = document.getElementById(".name").val();
       var email = document.getElementById(".email").val();
       if (name && email != ''){
         alert("Thank you " +  name  +  " your message is well receive");
       }
       else{
-        alert("invalid inputs!!");
+        alert("invalid inputs!");
       }
       event.preventDefault();
     });

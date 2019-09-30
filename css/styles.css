@@ -46,12 +46,12 @@
       align-items: center;
     padding-left: 10%;
   }
-  #contacts{
+  .contacts{
       background-image:url("../asserts/background/back1.jpg");
       height:500px;
       width:100%;
   }
-  .form-group{
+  .form-action{
       text-align:center;
       box-align:center;
       margin:50px 20px;
