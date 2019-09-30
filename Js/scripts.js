@@ -11,7 +11,7 @@ $(document).ready(function(){
 
     $(".image").hover(function(){
       $(this).animate({opacity: "0.4"});
-    });
+     $(this).animate({opacity: "0.4"});
   });
   $(document).ready(function(){
     $("form").submit(function(event){
@@ -21,7 +21,7 @@ $(document).ready(function(){
       event.preventDefault();
       if ( name && email != '')
       {
-        alert("Thank you " + name +  "your is message is well receive");
+        alert("Thank you " + name +  "thank you for reaching us");
       }
     });
   });
